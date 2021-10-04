@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<title>HTML Order List</title>
+<link rel="stylesheet" href='https://mmwebfonts.comquas.com/fonts/?font=myanmar3' />
+<link rel="stylesheet" href='https://mmwebfonts.comquas.com/fonts/?font=zawgyi' />
+
+<html>
+    <head>
+        <style>
+            body{
+                background-color: darkblue;
+            }
+                .content{
+                    max-width: 960px;
+                    background-color: white;
+                    margin: auto;
+                    padding: 20px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 18px;}
+                    .line-space{
+                        line-height: 2;
+                    }
+                    .line-space1{
+                        line-height: 3;
+                    }
+                 .list {
+                counter-reset: list;
+                line-height: 2;
+                margin: auto;
+                
+                        }
+                 .line-space{
+                     line-height: 2;
+                    }
+                .list > li {
+                list-style: none;
+                position: relative;
+                                 }
+
+                .list > li:before {
+                   counter-increment: list;
+                   content: counter(list, lower-alpha) ") ";
+                  position: absolute;
+                 left: -1.4em;
+                              }
+                .table-container{display: block;
+                                padding:30px; 
+                                background-color: white;   
+
+                }              
+                 .tg  {border-collapse:collapse;border-spacing:0;}
+                 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+                  overflow:hidden;padding:10px 5px;word-break:normal;}
+                 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+                font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+              .tg .tg-0lax{text-align:left;vertical-align:top}
+               @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}
+                    </style>
+
+    </head>
+
+    <body>
+        <div class="content">
+
+            
+            <ol class="line-space">
+                <li>What do you live? <br/>
+                    <ol class="list">
+                    <li>What do you live?    </li>   
+                    <li>What made you to do that? </li>
+                    <li> What are you interested in ?</li>
+                    <li>What do you live? </li>   
+                    <li>What made you to do that? </li>
+                    <li> What are you interested in ?</li>
+                    <li>What do you live? </li>   
+                    <li>What made you to do that? </li>
+                    <li> What are you interested in ?</li>
+                        
+                    </ol>    </li>   
+                <li>What made you to do that? </li>
+                <li> What are you interested in ?</li>
+                <li>What do you live? </li>   
+                <li>What made you to do that? </li>
+                <li> What are you interested in ?</li>
+                <li>What do you live? </li>   
+                <li>What made you to do that? </li>
+                <li> What are you interested in ?</li>
+                
+            </ol>
+                 
+            <ol class="list">
+            
+                <li>What do you live? </li>   
+                <li>What made you to do that? </li>
+                <li> What are you interested in ?</li>
+                <li>What do you live? </li>   
+                <li>What made you to do that? </li>
+                <li> What are you interested in ?</li>
+                <li>What do you live? </li>   
+                <li>What made you to do that? </li>
+                <li> What are you interested in ?</li>
+                
+            </ol>    
+        <ul class="line-space">
+                 <li> chapter1</li>
+                 <li>chapter2</li>
+                 <li>chapter3</li>
+                 <li> chapter4</li>
+                 <li>chapter5</li>
+                 <li>chapter6</li>
+        </ul>
+        <div class="table-container">
+            <div class="tg-wrap"><table class="tg">
+                <tbody>
+                  <tr>
+                    <td class="tg-0lax">item1</td>
+                    <td class="tg-0lax">item2</td>
+                    <td class="tg-0lax">item3</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax">item4</td>
+                    <td class="tg-0lax">item5</td>
+                    <td class="tg-0lax">item6</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax">item7</td>
+                    <td class="tg-0lax">item8</td>
+                    <td class="tg-0lax">item9</td>
+                  </tr>
+                </tbody>
+                </table></div>  
+        </div>
+                
+            
+        </div>
+
+        
+          
+    
+
+        
+
+
+          
+    </body>
+</html>
